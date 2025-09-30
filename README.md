@@ -20,21 +20,19 @@ This project replicates the look and feel of Amazon’s homepage for learning an
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ```bash
+   bash
    git clone https://github.com/NeerajSaini271/Amazon-Clone.git
-````
+
 
 2. Open the project folder and launch `index.html` in your browser.
 
 ## 📂 Project Structure
 
-```
 /Amazon-Clone
 ├─ index.html
 ├─ style.css
 └─ Images/
    └─ Amazon Clone.png
-```
 
 ## 🎯 Purpose
 
@@ -46,7 +44,3 @@ This project is created for:
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
-Would you like me to now generate the **Netflix, Spotify, and X READMEs** in this exact same style so all four projects look uniform on GitHub?
-```
