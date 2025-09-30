@@ -4,14 +4,10 @@
 
 **Live demo:** [amazon-clone-bm.netlify.app](https://amazon-clone-bm.netlify.app/)
 
----
-
 ## 📖 Overview
 
 A front-end Amazon homepage clone built using **HTML** and **CSS**.
 This project replicates the look and feel of Amazon’s homepage for learning and portfolio purposes.
-
----
 
 ## ✨ Features
 
@@ -19,14 +15,10 @@ This project replicates the look and feel of Amazon’s homepage for learning an
 * Product sections, banners, and grid layouts
 * Footer with links and informational text
 
----
-
 ## 🛠️ Tech Stack
 
 * **HTML5**
 * **CSS3**
-
----
 
 ## 🚀 Getting Started
 
@@ -38,8 +30,6 @@ This project replicates the look and feel of Amazon’s homepage for learning an
 
 2. Open the project folder and launch `index.html` in your browser.
 
----
-
 ## 📂 Project Structure
 
 /
@@ -48,16 +38,12 @@ This project replicates the look and feel of Amazon’s homepage for learning an
 └─ Images/
 └─ Amazon Clone.png
 
----
-
 ## 🎯 Purpose
 
 This project is created for:
 
 * Practicing HTML & CSS layout techniques
 * Building a strong web development portfolio
-
----
 
 ## 📜 License
 
