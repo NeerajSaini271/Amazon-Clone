@@ -1,6 +1,6 @@
 # Amazon Clone 🛒
 
-![Amazon Clone screenshot](img/Amazon%20Clone.png)
+![Amazon Clone screenshot](Images/Amazon%20Clone.png)
 
 **Live Demo:** [https://amazon-clone-bm.netlify.app/](https://amazon-clone-bm.netlify.app/)
 
