@@ -8,7 +8,7 @@ This is a front-end Amazon clone built using **HTML and CSS**.
 - Works on both desktop and mobile  
 
 ## 📸 Screenshots
-![Amazon Clone Screenshot](https://github.com/NeerajSaini271/Projects/blob/847afff779275bf657bc7c794789c448de6fc331/Amazon%20Clone/Images/Amazon%20Clone.png)
+![Amazon Clone Screenshot](https://github.com/NeerajSaini271/Amazon-Clone/blob/491fd488d149a6f089d1f1f6f1790f4fc50e7721/Images/Amazon%20Clone.png)
 
 ## 🛠️ Technologies Used
 - HTML5  
