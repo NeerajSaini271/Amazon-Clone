@@ -2,7 +2,7 @@
 
 ![Amazon Clone screenshot](Images/Amazon%20Clone.png)
 
-**Live demo:** [ecommerce-ui-demo.netlify.app](https://ecommerce-ui-demo.netlify.app)
+**Live demo:** [https://ecommerce-ui-demo.netlify.app](https://ecommerce-ui-demo.netlify.app)
 
 ## 📖 Overview
 
