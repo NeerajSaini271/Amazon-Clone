@@ -6,7 +6,7 @@ A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate 
 
 ## Preview
 
-![ages/storefront-preview.png
+Images/storefront-preview.png
 
 ## Overview
 
