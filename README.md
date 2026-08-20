@@ -4,6 +4,10 @@ A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate 
 
 > **Independent educational project:** This project was created for learning and portfolio purposes. It is not affiliated with, endorsed by, or connected to Amazon or any other e-commerce company. All third-party trademarks belong to their respective owners.
 
+## Preview
+
+Images/storefront-preview.png
+
 ## Overview
 
 This project explores the structure of a modern e-commerce homepage, including navigation, search, promotional content, product categories, and an information-rich footer. The interface was built from scratch as a frontend development exercise.
@@ -50,11 +54,11 @@ Open `index.html` directly in a browser, or use a local development server such 
 
 ```text
 .
-├── index.html
-├── styles.css
-├── Images/
-├── README.md
-└── LICENSE
+â”œâ”€â”€ index.html
+â”œâ”€â”€ styles.css
+â”œâ”€â”€ Images/
+â”œâ”€â”€ README.md
+â””â”€â”€ LICENSE
 ```
 
 The `Images` directory currently contains the hero and category artwork used by the interface. Before public redeployment, these files should be reviewed and replaced with original or appropriately licensed alternatives where necessary.
