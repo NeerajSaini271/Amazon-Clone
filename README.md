@@ -1,4 +1,7 @@
-# E-Commerce Platform UI
+<p align="center">
+    <img src="favicon.svg" alt="Storefront logo" width="88" height="88">
+</p>
+<h1 align="center">E-Commerce Platform UI</h1>
 
 A responsive e-commerce interface built with HTML5 and CSS3 to demonstrate modern layout composition, reusable styling, accessibility fundamentals, and responsive frontend design.
 
