@@ -6,7 +6,7 @@ A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate 
 
 ## Preview
 
-Images/storefront-preview.png
+![ages/storefront-preview.png
 
 ## Overview
 
@@ -54,11 +54,11 @@ Open `index.html` directly in a browser, or use a local development server such 
 
 ```text
 .
-â”œâ”€â”€ index.html
-â”œâ”€â”€ styles.css
-â”œâ”€â”€ Images/
-â”œâ”€â”€ README.md
-â””â”€â”€ LICENSE
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.html
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ styles.css
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Images/
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ README.md
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ LICENSE
 ```
 
 The `Images` directory currently contains the hero and category artwork used by the interface. Before public redeployment, these files should be reviewed and replaced with original or appropriately licensed alternatives where necessary.
