@@ -1,6 +1,8 @@
 # E-Commerce Platform UI
 
-A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate layout composition, reusable styling, accessibility fundamentals, and responsive frontend design.
+A responsive e-commerce interface built with HTML5 and CSS3 to demonstrate modern layout composition, reusable styling, accessibility fundamentals, and responsive frontend design.
+
+**Live Demo:** [https://ecommerce-platform-ui.vercel.app](https://ecommerce-platform-ui.vercel.app)
 
 > **Independent educational project:** This project was created for learning and portfolio purposes. It is not affiliated with, endorsed by, or connected to Amazon or any other e-commerce company. All third-party trademarks belong to their respective owners.
 
@@ -10,20 +12,33 @@ A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate 
 
 ## Overview
 
-This project explores the structure of a modern e-commerce homepage, including navigation, search, promotional content, product categories, and an information-rich footer. The interface was built from scratch as a frontend development exercise.
+E-Commerce Platform UI explores the structure of a modern online storefront, including responsive navigation, product search, promotional content, category cards, and an information-rich footer.
 
-The current version uses original **Storefront** text branding and neutral interface wording. It does not provide real accounts, purchases, payments, or order processing.
+The interface was built from scratch as a frontend development exercise. The current version uses original **Storefront** branding, neutral interface wording, and original visual assets. It does not provide real user accounts, purchases, payments, or order processing.
 
 ## Features
 
 - Responsive navigation with category selection and product search
-- Original Storefront text branding rendered with HTML and CSS
-- Promotional hero section with a visible educational disclaimer
-- Eight product-category cards
-- Responsive layouts using CSS Grid, Flexbox, and media queries
-- Keyboard focus states and accessible form labels
+- Original Storefront branding created with HTML and CSS
+- Promotional hero section with an educational-project notice
+- Eight product-category cards with original visual assets
+- Product cards that overlap the lower hero area for a layered layout
+- Responsive layouts built with CSS Grid, Flexbox, and media queries
+- Accessible form labels and visible keyboard-focus states
 - Structured footer with project, technology, and developer links
-- Mobile, tablet, and desktop breakpoints
+- Desktop, tablet, and mobile breakpoints
+- Automatic Vercel deployment from the `main` branch
+
+## Product Categories
+
+- Clothing
+- Health and Personal Care
+- Furniture
+- Electronics
+- Beauty
+- Pet Care
+- Toys
+- Fashion Trends
 
 ## Tech Stack
 
@@ -33,6 +48,8 @@ The current version uses original **Storefront** text branding and neutral inter
 - Flexbox
 - Media queries
 - Font Awesome icons
+- Git and GitHub
+- Vercel
 
 ## Getting Started
 
@@ -42,26 +59,43 @@ The current version uses original **Storefront** text branding and neutral inter
 git clone https://github.com/NeerajSaini271/Ecommerce-Platform-UI.git
 ```
 
-### 2. Open the project
+### 2. Open the project directory
 
 ```bash
 cd Ecommerce-Platform-UI
 ```
+
+### 3. Run the project locally
 
 Open `index.html` directly in a browser, or use a local development server such as the VS Code Live Server extension.
 
 ## Project Structure
 
 ```text
-.
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.html
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ styles.css
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Images/
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ README.md
-Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ LICENSE
+Ecommerce-Platform-UI/
+├── Images/
+│   ├── storefront-preview.png
+│   ├── hero_image.png
+│   ├── box1_image.png
+│   ├── box2_image.png
+│   ├── box3_image.png
+│   ├── box4_image.png
+│   ├── box5_image.png
+│   ├── box6_image.png
+│   ├── box7_image.png
+│   └── box8_image.png
+├── index.html
+├── styles.css
+└── README.md
 ```
 
-The `Images` directory currently contains the hero and category artwork used by the interface. Before public redeployment, these files should be reviewed and replaced with original or appropriately licensed alternatives where necessary.
+## Responsive Design
+
+- The desktop layout displays four category cards per row.
+- The tablet layout reduces the grid to two cards per row.
+- The mobile layout displays one card per row.
+- Navigation elements adapt or hide at narrower viewport widths.
+- The hero section and category cards use responsive spacing and sizing.
 
 ## Project Goals
 
@@ -70,14 +104,23 @@ The `Images` directory currently contains the hero and category artwork used by 
 - Strengthen semantic HTML and accessibility fundamentals
 - Replace third-party brand identity with original project branding
 - Present frontend development work in a portfolio-safe format
+- Practice GitHub-based deployment workflows with Vercel
 
 ## Branding and Asset Notice
 
-- Official company logos and favicons are not used by the updated interface
-- The project uses neutral Storefront branding
-- Product and hero images must be original or appropriately licensed before deployment
-- The interface must not collect real credentials, personal data, or payment information
-- The educational-project disclaimer should remain visible
+- The updated interface does not use official company logos or favicons.
+- The project uses neutral Storefront branding.
+- The interface does not collect real credentials, personal data, or payment information.
+- The educational-project notice should remain visible in the deployed interface.
+- Third-party trademarks belong to their respective owners.
+
+## Deployment
+
+The project is deployed on Vercel:
+
+[https://ecommerce-platform-ui.vercel.app](https://ecommerce-platform-ui.vercel.app)
+
+Changes pushed to the `main` branch are automatically deployed through the connected Vercel project.
 
 ## Author
 
