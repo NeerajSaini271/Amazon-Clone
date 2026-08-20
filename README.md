@@ -1,50 +1,88 @@
-# 🛒 Amazon Clone
+# E-Commerce Platform UI
 
-![Amazon Clone screenshot](Images/Amazon%20Clone.png)
+A desktop-first e-commerce interface created with HTML5 and CSS3 to demonstrate layout composition, reusable styling, accessibility fundamentals, and responsive frontend design.
 
-**Live demo:** [https://ecommerce-ui-demo.netlify.app](https://ecommerce-ui-demo.netlify.app)
+> **Independent educational project:** This project was created for learning and portfolio purposes. It is not affiliated with, endorsed by, or connected to Amazon or any other e-commerce company. All third-party trademarks belong to their respective owners.
 
-## 📖 Overview
+## Overview
 
-A front-end Amazon homepage clone built using **HTML** and **CSS**.
-This project replicates the look and feel of Amazon’s homepage for learning and portfolio purposes.
+This project explores the structure of a modern e-commerce homepage, including navigation, search, promotional content, product categories, and an information-rich footer. The interface was built from scratch as a frontend development exercise.
 
-## ✨ Features
+The current version uses original **Storefront** text branding and neutral interface wording. It does not provide real accounts, purchases, payments, or order processing.
 
-* Navigation bar with logo, search box, and cart
-* Product sections, banners, and grid layouts
-* Footer with links and informational text
+## Features
 
-## 🛠️ Tech Stack
+- Responsive navigation with category selection and product search
+- Original Storefront text branding rendered with HTML and CSS
+- Promotional hero section with a visible educational disclaimer
+- Eight product-category cards
+- Responsive layouts using CSS Grid, Flexbox, and media queries
+- Keyboard focus states and accessible form labels
+- Structured footer with project, technology, and developer links
+- Mobile, tablet, and desktop breakpoints
 
-* **HTML5**
-* **CSS3**
+## Tech Stack
 
-## 🚀 Getting Started
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Media queries
+- Font Awesome icons
 
-1. Clone the repository:
+## Getting Started
 
-   ```bash
-   git clone https://github.com/NeerajSaini271/Amazon-Clone.git
-   ```
+### 1. Clone the repository
 
-2. Open the project folder and launch `index.html` in your browser.
+```bash
+git clone https://github.com/NeerajSaini271/Ecommerce-Platform-UI.git
+```
 
-## 📂 Project Structure
+### 2. Open the project
 
-/
-├─ index.html
-├─ style.css
-└─ Images/
-└─ Amazon Clone.png
+```bash
+cd Ecommerce-Platform-UI
+```
 
-## 🎯 Purpose
+Open `index.html` directly in a browser, or use a local development server such as the VS Code Live Server extension.
 
-This project is created for:
+## Project Structure
 
-* Practicing HTML & CSS layout techniques
-* Building a strong web development portfolio
+```text
+.
+├── index.html
+├── styles.css
+├── Images/
+├── README.md
+└── LICENSE
+```
 
-## 📜 License
+The `Images` directory currently contains the hero and category artwork used by the interface. Before public redeployment, these files should be reviewed and replaced with original or appropriately licensed alternatives where necessary.
 
-This project is licensed under the [MIT License](LICENSE).
+## Project Goals
+
+- Practice complex layouts with CSS Grid and Flexbox
+- Improve responsive behavior across common viewport sizes
+- Strengthen semantic HTML and accessibility fundamentals
+- Replace third-party brand identity with original project branding
+- Present frontend development work in a portfolio-safe format
+
+## Branding and Asset Notice
+
+- Official company logos and favicons are not used by the updated interface
+- The project uses neutral Storefront branding
+- Product and hero images must be original or appropriately licensed before deployment
+- The interface must not collect real credentials, personal data, or payment information
+- The educational-project disclaimer should remain visible
+
+## Author
+
+**Neeraj Kumar Saini**
+
+- GitHub: [NeerajSaini271](https://github.com/NeerajSaini271)
+- LinkedIn: [neerajsaini271](https://www.linkedin.com/in/neerajsaini271)
+- Email: [neerajkhetrisaini@gmail.com](mailto:neerajkhetrisaini@gmail.com)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Third-party trademarks, logos, and media are not covered by the project's MIT License.

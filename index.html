@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon</title>
-    <link rel="icon" href="Images/Amazon_icon.png" type="image/Amazon-icon" />
+    <meta
+      name="description"
+      content="An independent educational e-commerce interface built by Neeraj Kumar Saini using HTML and CSS."
+    />
+    <title>Storefront | E-Commerce Platform UI</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -12,209 +15,245 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="Amazon.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <div class="navbar">
-        <div class="nav-bar">
-          <div class="nav-logo">
-            <div class="logo border"></div>
-          </div>
-          <div class="nav-address border">
-            <p class="add-first">Deliver to</p>
-            <div class="add-icon">
-              <i class="fa-solid fa-location-dot"></i>
-              <p class="add-second">India</p>
-            </div>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand border" href="#top" aria-label="Storefront home">
+          <span class="brand-icon" aria-hidden="true"
+            ><i class="fa-solid fa-store"></i
+          ></span>
+          <span>Storefront</span>
+        </a>
+
+        <div
+          class="nav-address border"
+          aria-label="Demonstration delivery location"
+        >
+          <p class="add-first">Delivering to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <p class="add-second">India</p>
           </div>
         </div>
-        <div class="nav-search">
-          <select class="search-select">
+
+        <form class="nav-search" role="search" action="#products">
+          <label class="visually-hidden" for="category">Product category</label>
+          <select
+            id="category"
+            class="search-select"
+            aria-label="Product category"
+          >
             <option>All</option>
+            <option>Fashion</option>
+            <option>Home</option>
+            <option>Electronics</option>
           </select>
-          <input placeholder="Search Amazon" class="search-input" />
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </div>
-        <div class="nav-signin border">
-          <p><span>Hello, sign in</span></p>
-          <p class="nav-second">Account & Lists</p>
-        </div>
-        <div class="nav-return border">
-          <p><span>Returns</span></p>
-          <p class="nav-second">& Orders</p>
-        </div>
-        <div class="nav-cart border">
-          <i class="fa-solid fa-cart-shopping"></i>
-          Cart
-        </div>
-      </div>
+          <label class="visually-hidden" for="product-search"
+            >Search products</label
+          >
+          <input
+            id="product-search"
+            class="search-input"
+            type="search"
+            placeholder="Search products"
+          />
+          <button class="search-icon" type="submit" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+        </form>
+
+        <a class="nav-link border" href="#demo-note">
+          <span>Explore this</span>
+          <strong>UI Demo</strong>
+        </a>
+        <a class="nav-link border" href="#products">
+          <span>Browse</span>
+          <strong>Categories</strong>
+        </a>
+        <a class="nav-cart border" href="#products">
+          <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+          <span>Cart</span>
+        </a>
+      </nav>
+
       <div class="panel">
         <div class="panel-one">
-          <div class="panel-all">
-            <i class="fa-solid fa-bars"></i>
-            All
-          </div>
-          <div class="panel-ops">
-            <p>Black Friday</p>
-            <p>Prime Video</p>
-            <p>Registry</p>
-            <p>Gift Cards</p>
-            <p>Customer Service</p>
-            <p>Sell</p>
+          <a class="panel-all" href="#products">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            Categories
+          </a>
+          <div class="panel-ops" aria-label="Featured departments">
+            <a href="#products">New Arrivals</a>
+            <a href="#products">Home</a>
+            <a href="#products">Fashion</a>
+            <a href="#products">Electronics</a>
+            <a href="#products">Wellness</a>
           </div>
         </div>
-        <div class="panel-deals">Shop deals in Electronics</div>
+        <a class="panel-deals" href="#products">Explore featured collections</a>
       </div>
     </header>
 
-    <div class="hero-section">
-      <div class="hero-msg">
-        <p>
-          You are on amazon.com. You can also shop on Amazon India for millions
-          of products with fast local delivery.
-          <a href="#">Click here to go to amazon.in</a>
-        </p>
-      </div>
-    </div>
-    <div class="shop-section">
-      <div class="box">
-        <div class="box-content">
-          <h2>Clothes</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box1_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
+    <main id="top">
+      <section class="hero-section" aria-label="Featured collection">
+        <div id="demo-note" class="hero-msg">
+          <p>
+            Independent educational interface by Neeraj Kumar Saini. This is a
+            static frontend demonstration and is not an official online store.
+          </p>
         </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Health & Personal Care</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box2_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Furniture</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box3_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Electronics</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box4_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Beauty Pics</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box5_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Pet Care</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box6_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Toys</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box7_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Discover Fashion Trends</h2>
-          <div
-            class="box-img"
-            style="background-image: url('Images/box8_image.jpg')"
-          ></div>
-          <a href="#">Shop now</a>
-        </div>
-      </div>
-    </div>
+      </section>
+
+      <section
+        id="products"
+        class="shop-section"
+        aria-label="Product categories"
+      >
+        <article class="box">
+          <div class="box-content">
+            <h2>Clothing</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box1_image.jpg&quot;)"
+              role="img"
+              aria-label="Clothing category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Health &amp; Personal Care</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box2_image.jpg&quot;)"
+              role="img"
+              aria-label="Health and personal care category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Furniture</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box3_image.jpg&quot;)"
+              role="img"
+              aria-label="Furniture category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Electronics</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box4_image.jpg&quot;)"
+              role="img"
+              aria-label="Electronics category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Beauty</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box5_image.jpg&quot;)"
+              role="img"
+              aria-label="Beauty category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Pet Care</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box6_image.jpg&quot;)"
+              role="img"
+              aria-label="Pet care category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Toys</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box7_image.jpg&quot;)"
+              role="img"
+              aria-label="Toys category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+        <article class="box">
+          <div class="box-content">
+            <h2>Fashion Trends</h2>
+            <div
+              class="box-img"
+              style="background-image: url(&quot;Images/box8_image.jpg&quot;)"
+              role="img"
+              aria-label="Fashion trends category"
+            ></div>
+            <a href="#demo-note">Explore category</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
     <footer>
-      <div class="foot-pannel1">Back To Top</div>
-      <div class="foot-pannel2">
-        <ul>
-          <p>Get to Know Us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Investor Relations</a>
-          <a>Amazon Devices</a>
-          <a>Amazon Science</a>
-        </ul>
-        <ul>
-          <p>Make Money with Us</p>
-          <a>Sell products on Amazon</a>
-          <a>Sell on Amazon Business</a>
-          <a>Sell apps on Amazon</a>
-          <a>Become an Affiliate</a>
-          <a>Advertise Your Products</a>
-          <a>Self-Publish with Us</a>
-          <a>Host an Amazon Hub</a>
-          <a>See More Make Money with Us</a>
-        </ul>
-        <ul>
-          <p>Amazon Payment Products</p>
-          <a>Amazon Business Card</a>
-          <a>Shop with Points</a>
-          <a>Reload Your Balance</a>
-          <a>Amazon Currency Converter</a>
-        </ul>
-        <ul>
-          <p>Let Us Help You</p>
-          <a>Amazon and COVID-19</a>
-          <a>Your Account</a>
-          <a>Your Orders</a>
-          <a>Shipping Rates & Policies</a>
-          <a>Returns & Replacements</a>
-          <a>Manage Your Content and Devices</a>
-          <a>Help</a>
-        </ul>
+      <a class="footer-panel-top" href="#top">Back to top</a>
+      <div class="footer-panel-links">
+        <section>
+          <h2>About This Project</h2>
+          <a href="#demo-note">Educational purpose</a>
+          <a href="https://github.com/NeerajSaini271/Ecommerce-Platform-UI"
+            >Source code</a
+          >
+          <a href="https://github.com/NeerajSaini271">Developer profile</a>
+        </section>
+        <section>
+          <h2>Explore</h2>
+          <a href="#products">Product categories</a>
+          <a href="#products">Featured collections</a>
+          <a href="#products">Responsive layout</a>
+        </section>
+        <section>
+          <h2>Built With</h2>
+          <a href="#demo-note">HTML5</a>
+          <a href="#demo-note">CSS Grid</a>
+          <a href="#demo-note">Flexbox</a>
+        </section>
+        <section>
+          <h2>Connect</h2>
+          <a href="https://www.linkedin.com/in/neerajsaini271">LinkedIn</a>
+          <a href="https://github.com/NeerajSaini271">GitHub</a>
+          <a href="mailto:neerajkhetrisaini@gmail.com">Email</a>
+        </section>
       </div>
-      <div class="foot-pannel3">
-        <div class="logo"></div>
+      <div class="footer-panel-brand">
+        <div class="brand footer-brand">
+          <span class="brand-icon" aria-hidden="true"
+            ><i class="fa-solid fa-store"></i
+          ></span>
+          <span>Storefront</span>
+        </div>
       </div>
-      <div class="foot-pannel4">
-        <div class="pages">
-          <a>Conditions of Use</a>
-          <a>Privacy Notice </a>
-          <a>Consumer Health Data Privacy Disclosure</a>
-          <a>Your Ads Privacy Choices</a>
-        </div>
-        <div class="copyright">
-          © 1996-2024, Amazon.com, Inc. or its affiliates
-        </div>
+      <div class="footer-panel-bottom">
+        <p>
+          Independent educational frontend project. No purchases or accounts are
+          available.
+        </p>
+        <p>&copy; 2026 Neeraj Kumar Saini.</p>
       </div>
     </footer>
   </body>
