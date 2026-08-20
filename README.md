@@ -11,7 +11,7 @@ A responsive e-commerce interface built with HTML5 and CSS3 to demonstrate moder
 
 ## Preview
 
-![Storefront Preview](Images/storefront-preview1.png)
+![Storefront Preview](Images/storefront-preview.png)
 
 ## Overview
 
